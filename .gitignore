@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and environments
+.ipynb_checkpoints/
+.pytest_cache/
+env/
+venv/
+.venv/
+ENV/
+
+# Temporary and build scratch
+_tmp/
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and agent settings
+.vscode/
+.idea/
+.gemini/

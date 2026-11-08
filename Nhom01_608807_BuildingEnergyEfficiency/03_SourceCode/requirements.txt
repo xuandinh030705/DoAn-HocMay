@@ -1,0 +1,38 @@
+# =============================================================================
+# requirements.txt — Đồ án "Dự đoán Tiêu thụ Năng lượng trong Tòa nhà"
+# Nhóm 01 · Học phần 608807 · Khoa CNTT, Trường ĐH Xây dựng Hà Nội
+#
+# Phiên bản được ghi CHÍNH XÁC theo môi trường đã chạy ra kết quả trong báo cáo
+# (Python 3.14.7, Windows 11). Cài đặt:
+#     pip install -r requirements.txt
+# =============================================================================
+
+# --- Lõi tính toán ---
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+
+# --- Machine Learning ---
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+
+# --- Trực quan hóa ---
+matplotlib==3.11.2
+seaborn==0.13.2
+Pillow==12.3.0
+
+# --- Giải thích mô hình ---
+shap==0.54.1
+
+# --- Đọc dữ liệu Excel ---
+openpyxl==3.1.5
+
+# --- Notebook (chạy lại 01_EDA_Preprocessing.ipynb, 02_Modeling_Evaluation.ipynb) ---
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+jupyter_client==8.10.0
+
+# --- Demo web ---
+streamlit==1.65.0

@@ -1,0 +1,9 @@
+model,phương pháp,số tổ hợp,CV_R2 tốt nhất,thời gian (s),tham số tốt nhất
+XGBoost,RandomizedSearchCV (n_iter=30),30,0.9929641604423523,22.09103970002616,"{""model__subsample"": 0.8, ""model__reg_lambda"": 10.0, ""model__n_estimators"": 900, ""model__max_depth"": 5, ""model__learning_rate"": 0.03, ""model__colsample_bytree"": 1.0}"
+Hist Gradient Boosting,RandomizedSearchCV (n_iter=20),20,0.9915764138473893,52.41952840000158,"{""model__estimator__min_samples_leaf"": 10, ""model__estimator__max_iter"": 600, ""model__estimator__max_depth"": 5, ""model__estimator__learning_rate"": 0.05}"
+Gradient Boosting,RandomizedSearchCV (n_iter=20),20,0.9893598801373008,25.69028249999974,"{""model__estimator__subsample"": 0.8, ""model__estimator__n_estimators"": 400, ""model__estimator__max_depth"": 4, ""model__estimator__learning_rate"": 0.1}"
+Random Forest,RandomizedSearchCV (n_iter=20),20,0.9808373373184729,31.694120200001635,"{""model__n_estimators"": 400, ""model__min_samples_leaf"": 4, ""model__max_features"": 0.6, ""model__max_depth"": 12}"
+Decision Tree,GridSearchCV,48,0.9790531293295478,2.6849959999963176,"{""model__max_depth"": 8, ""model__max_features"": null, ""model__min_samples_leaf"": 8}"
+Ridge,GridSearchCV,7,0.9717615312304444,10.48416819999693,"{""model__alpha"": 1e-05}"
+k-NN,GridSearchCV,28,0.9650517962223111,1.9507100000046194,"{""model__n_neighbors"": 3, ""model__p"": 1, ""model__weights"": ""distance""}"
+Lasso,GridSearchCV,6,0.948495841972466,5.306483299995307,"{""model__alpha"": 1e-05}"
